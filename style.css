@@ -7,30 +7,34 @@ body{
   font-family:'Roboto Regular';
   font-size:1.3rem;
 }
-.intro{
-  background-color: #136C72;
-  color: #fff;
-  padding:100px 0;
-}
-
-.intro-content{
+h1{
+    font-family:'Roboto Black';
+    font-size:3rem; 
+  }
+.container{
   width:80% ;
   max-width:1100px;
   margin:0 auto;
   
 }
-
-.intro_text{
+.row{
+    display: flex;
+}
+.col{
+   width: 100%; /*set width for equal size;*/
+}
+.col + .col{
+    margin-left: 50px;
+}
+.hero{
+    background-color: #136C72;
+    color: #fff;
+    padding:100px 0;
+  }
+.hero__text{
  width:50%;
 }
-
-
- h1{
-  font-family:'Roboto Black';
-  font-size:3rem;
- 
-}
-.intro p{
+.hero p{
   font-size:1.3rem;
   margin-bottom:3em;
 }
